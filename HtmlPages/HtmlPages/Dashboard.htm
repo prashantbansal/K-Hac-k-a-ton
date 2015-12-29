@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Dashboard</title>
+    <link href="Styles/Styles.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+        function hideGraph(divID) {
+            if (document.getElementById(divID).style.display == "block") {
+                document.getElementById(divID).style.display = "none";
+            }
+            else {
+                document.getElementById(divID).style.display = "block";
+            }
+        }
+        
+    </script>
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <div class="logo">
+                <a>
+                    <img src="Images/Logo.jpg" title="Kaplan" alt="Kaplan" width="33" height="32" border="0" /></a>
+            </div>
+        </div>
+        <div id="content">
+            <div class="containers">
+                <div class="leftContainer">
+                    <div style="margin: 8px;">
+                        <strong>MBE MCQ Performance-1</strong>
+                        <div style="float: right">
+                            <a onclick="hideGraph('MBE1'),false">
+                                <img src="Images/arrow_down.png" /></a></div>
+                    </div>
+                    <hr />
+                    <div id="MBE1" align="center" style="font-size: 12px; height: auto; display: block">
+                        <strong>MBE Subjects</strong>
+                        <div>
+                            <img src="Images/chart.png" />
+                        </div>
+                        <div style="float: right; color: Gray">
+                            <span>Moc Practice</span>&nbsp;&nbsp;<img style="vertical-align: middle" src="Images/plusicon.png" />
+                        </div>
+                    </div>
+                </div>
+                <div class="rightContainer">
+                    <div style="margin: 8px;">
+                        <strong>MBE MCQ Performance-2</strong>
+                        <div style="float: right">
+                            <a onclick="hideGraph('MBE2'),false">
+                                <img src="Images/arrow_down.png" /></a></div>
+                    </div>
+                    <hr />
+                    <div id="MBE2" align="center" style="font-size: 12px; height: auto; display: block">
+                        <strong>MBE Subjects</strong>
+                        <div>
+                            <img src="Images/chart.png" />
+                        </div>
+                        <div style="float: right; color: Gray">
+                            <span>Moc Practice</span>&nbsp;&nbsp;<img style="vertical-align: middle" src="Images/plusicon.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="containers">
+                <div class="leftContainer">
+                    <div style="margin: 8px;">
+                        <strong>MBE MCQ Performance-3</strong>
+                        <div style="float: right; color: Gray">
+                            <a onclick="hideGraph('MBE3'),false">
+                                <img src="Images/arrow_down.png" /></a></div>
+                    </div>
+                    <hr />
+                    <div id="MBE3" align="center" style="font-size: 12px; height: auto; display: block">
+                        <strong>MBE Subjects</strong>
+                        <div>
+                            <img src="Images/chart.png" />
+                        </div>
+                        <div style="float: right; color: Gray">
+                            <span>Moc Practice</span>&nbsp;&nbsp;<img style="vertical-align: middle" src="Images/plusicon.png" />
+                        </div>
+                    </div>
+                </div>
+                <div class="rightContainer">
+                    <div style="margin: 8px">
+                        <strong>MBE MCQ Performance-4</strong>
+                        <div style="float: right">
+                            <a onclick="hideGraph('MBE4'),false">
+                                <img src="Images/arrow_down.png" /></a></div>
+                    </div>
+                    <hr />
+                    <div id="MBE4" align="center" style="font-size: 12px; height: auto; display: block;">
+                        <strong>MBE Subjects</strong>
+                        <div>
+                            <img src="Images/chart.png" />
+                        </div>
+                        <div style="float: right; color: Gray">
+                            <span>Moc Practice</span>&nbsp;&nbsp;<img style="vertical-align: middle" src="Images/plusicon.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

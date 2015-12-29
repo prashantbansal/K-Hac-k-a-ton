@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Dashboard</title>
+    <link href="Styles/Style.css" rel="stylesheet" type="text/css" />
+    
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <div class="logo">
+                <a>
+                    <img src="Images/Logo.gif" title="Kaplan" alt="Kaplan" width="33" height="32" border="0" /></a>
+            </div>
+        </div>
+        <div id="content" style="width: 100%; background-color: white; display: inline-block">
+        <div style="background-color:#F8F8F8; width:95%; margin: 10px;
+    padding: 12px 14px 0px 16px;">
+        <div class="containers">
+                <div class="leftContainer">
+                    <div class="introTitleBar noBorder">
+                        MBE MCQ Performance-1<img src="Images/arrow_down.png" onclick="hideGraph('MBE1')"
+                            style="float: right">
+                    </div>
+                    <div id="MBE1" align="center" class="chartContainer" style="display: block; height:300px;">
+                        <strong>MBE Subjects</strong>
+                        <div>
+                            <img src="Images/graph.jpg" style="max-width: 100%; max-height: 100%" />
+                        </div>
+                    </div>
+                </div>
+                <div class="rightContainer">
+                    <div class="introTitleBar noBorder">
+                        <span>MBE MCQ Performance-2</span>
+                        <div style="float: right">
+                            <a onclick="hideGraph('MBE2'),false">
+                                <img src="Images/arrow_down.png" /></a></div>
+                    </div>
+                    <div id="MBE2" align="center" class="chartContainer" style="display: block;height:300px;">
+                        <strong>MBE Subjects</strong>
+                        <div>
+                            <img src="Images/graph.jpg" style="max-width: 100%; max-height: 100%" />
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="containers">
+            <div class="leftContainer">
+                    <div class="introTitleBar noBorder">
+                        MBE MCQ Performance-3<img src="Images/arrow_down.png" onclick="hideGraph('MBE3')"
+                            style="float: right">
+                    </div>
+                    <div id="MBE3" align="center" class="chartContainer" style="display: block; height:300px;">
+                        <strong>MBE Subjects</strong>
+                        <div>
+                            <img src="Images/graph.jpg" style="max-width: 100%; max-height: 100%" />
+                        </div>
+                    </div>
+                </div>
+                <div class="rightContainer">
+                    <div class="introTitleBar noBorder">
+                        <span>MBE MCQ Performance-4</span>
+                        <div style="float: right">
+                            <a onclick="hideGraph('MBE4'),false">
+                                <img src="Images/arrow_down.png" /></a></div>
+                    </div>
+                     <div id="MBE4" align="center" class="chartContainer" style="display: block; height:300px;">
+                        <strong>MBE Subjects</strong>
+                        <div>
+                            <img src="Images/graph.jpg" style="max-width: 100%; max-height: 100%" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+        </div>
+    </div>
+    <script type="text/javascript">
+        function hideGraph(divID) {
+            if (document.getElementById(divID).style.display == "block") {
+                document.getElementById(divID).style.display = "none";
+            }
+            else {
+                document.getElementById(divID).style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>

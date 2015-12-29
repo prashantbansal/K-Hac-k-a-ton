@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+        #navcontainer ul
+        {
+            width: 100%;
+            left: 0;
+            top: 2.5em;
+            z-index: 99;
+        }
+
+            #navcontainer ul li
+            {
+                width: auto;
+                float: left;
+                border: none;
+                border-right: 1px solid #dfdede;
+                margin-top: 4px;
+                padding: 8px 15px;
+            }
+
+                #navcontainer ul li a
+                {
+                    color: #878787;
+                    font-size: 11px;
+                    padding: 0px;
+                    border: 0px;
+                    text-decoration: none;
+                    font-weight: bold;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+
+                    #navcontainer ul li a:hover
+                    {
+                        color: #43579d;
+                    }
+    </style>
+</head>
+<body>
+    <div id="navcontainer">
+        <ul>
+            <li id="linkDashboard" runat="server"><a id="ctl00_lnkStudentHomePage" href="Dashboard.htm">Dashbaord</a> </li>
+            <li id="linkUserDetails" runat="server"><a id="A1" href="UserDetails.htm">User Details</a> </li>
+            <li id="linkDataEntry" runat="server"><a id="A2" href="DataEntry.htm">Data Entry</a> </li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,414 @@
+﻿body
+{
+    font: 11px Arial, Helvetica, sans-serif;
+    background-image: url(../Images/page_bg.jpg);
+    background-color: #c9c9c9;
+    background-repeat: repeat-x;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    height: 100%;
+    color: #454545;
+}
+
+#header
+{
+    background-image: url(../Images/Header.png);
+    background-repeat: repeat-x;
+    padding: 0 20px 0 20px;
+    height: 45px;
+}
+
+#main
+{
+    width: 1000px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.logo
+{
+    float: left;
+    margin: 6px;
+}
+
+.sublogo
+{
+    float: right;
+    margin: 6px;
+}
+
+.containers
+{
+    width: 100%;
+    display: inline-block;
+}
+
+.leftContainer
+{
+    float: left;
+    background-color: #FFFFFF;
+    border: 6px solid #DFDEDE;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 2px 2px 4px gray;
+    margin-bottom: 20px;
+    position: relative;
+    width: 48%;
+}
+
+.rightContainer
+{
+    float: right;
+    background-color: #FFFFFF;
+    border: 6px solid #DFDEDE;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 2px 2px 4px gray;
+    margin-bottom: 20px;
+    position: relative;
+    width: 48%;
+}
+
+.introTitleBar
+{
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #DFDEDE;
+    color: #3D3D3D;
+    font-family: Georgia;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 10px 9px 12px;
+}
+
+.noBorder
+{
+    border-left: 0 none currentcolor !important;
+    border-right: 0 none currentcolor !important;
+    border-top: 0 none currentcolor !important;
+}
+
+.availOptions
+{
+    position: absolute;
+    right: 10px;
+    top: 28px;
+    background-color: #ececec;
+    display: none;
+    cursor: pointer;
+    height: 32px;
+    color: #828383;
+    font-size: 11px !important;
+}
+
+.userProfile
+{
+    border: 1px solid #9F9F9F;
+    display: inline-block;
+    height: auto;
+    margin-left: -15px;
+    margin-top: -11px;
+    width: 103%;
+}
+
+.userProfileLeft
+{
+    float: left;
+    width: 28%;
+    margin: 4px;
+    border-right: 1px solid #9F9F9F;
+}
+
+.mainContent
+{
+    width: 103%;
+    display: inline-block;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.userProfileRight
+{
+    float: left;
+    width: 70%;
+    margin: 3px auto;
+}
+
+.localbookmarkTitle
+{
+    height: 25px; /*background-color: #DCDCDC;*/
+    font: 12px/1.5 Times New Roman,Helvetica,sans-serif;
+    display: inline-block;
+    width: 100%;
+    background-color: #D6D6D6;
+    color: #454545;
+}
+
+tr.border_bottom td
+{
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.localbookmark
+{
+    float: right;
+    width: 100%;
+    height: auto;
+    border: 2px solid #D9D9D9;
+    border-radius: 5px;
+}
+
+.panelTitle
+{
+    font: 13px/1.5 Arial,Helvetica,sans-serif;
+    font-weight: bold;
+}
+
+.tdLeft
+{
+    text-align: right;
+    width: 30%;
+}
+
+.tdRight
+{
+    text-align: left;
+    width: 55%;
+}
+
+.chartContainer
+{
+    display: block;
+    height: 400px;
+}
+
+span.exampleborderradiusf
+{
+    float: left;
+    background-color: #fc660f;
+    margin-top: -15px;
+    margin-right: 40px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    margin-left: 10px;
+    -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 10px;
+    -moz-box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+    box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+}
+
+.examplelabelborderradius
+{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 15px;
+}
+
+#sublogo1
+{
+    font-size: 30px;
+    font-weight: 200;
+    color: #098ff3;
+    font-family: Georgia;
+}
+
+
+#sublogo2
+{
+    font-size: 30px;
+    font-weight: 200;
+    color: rgb(30, 172, 30);
+    font-style: italic;
+    margin-left: -10px;
+    font-family: Georgia;
+}
+
+ul
+{
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* The wider the #list_wrapper is, the more columns will fit in it */
+#GradPrograms
+{
+    width: 100%;
+    margin-top: 3px;
+}
+
+#ProgramActivityStack
+{
+    width: 100%;
+    margin-top: 3px;
+}
+/* The wider this li is, the fewer columns there will be */
+.button
+{
+    display: inline-block;
+    white-space: nowrap;
+    background-color: #ccc;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ccc));
+    background-image: -webkit-linear-gradient(top, #eee, #ccc);
+    background-image: -moz-linear-gradient(top, #eee, #ccc);
+    background-image: -ms-linear-gradient(top, #eee, #ccc);
+    background-image: -o-linear-gradient(top, #eee, #ccc);
+    background-image: linear-gradient(top, #eee, #ccc);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#cccccc');
+    border: 1px solid #777;
+    padding: 0 .4em;
+    margin: -0.1em;
+    font: bold 1em/2em Arial, Helvetica;
+    text-decoration: none;
+    color: #333;
+    text-shadow: 0 1px 0 rgba(255,255,255,.8);
+    -moz-border-radius: .2em;
+    -webkit-border-radius: .2em;
+    border-radius: .2em;
+    -moz-box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+    box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+    cursor: pointer;
+}
+
+.buttonSelected
+{
+    color: #f00;
+}
+
+.button:hover
+{
+    background-color: #ddd;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#ddd));
+    background-image: -webkit-linear-gradient(top, #fafafa, #ddd);
+    background-image: -moz-linear-gradient(top, #fafafa, #ddd);
+    background-image: -ms-linear-gradient(top, #fafafa, #ddd);
+    background-image: -o-linear-gradient(top, #fafafa, #ddd);
+    background-image: linear-gradient(top, #fafafa, #ddd);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#fafafa', EndColorStr='#dddddd');
+}
+
+.button:active
+{
+    -moz-box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+    -webkit-box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+    box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+    position: relative;
+    top: 1px;
+}
+
+.button:focus
+{
+    outline: 0;
+    background: #fafafa;
+}
+
+#navcontainer ul
+{
+    width: 100%;
+    left: 0;
+    top: 2.5em;
+    z-index: 99;
+    list-style-type: none;
+}
+
+    #navcontainer ul li
+    {
+        width: auto;
+        float: left;
+        border: none;
+        border-right: 1px solid #dfdede;
+        margin-top: 4px;
+        padding: 8px 15px;
+    }
+
+        #navcontainer ul li.Last
+        {
+            border: none;
+        }
+
+        #navcontainer ul li a
+        {
+            color: #878787;
+            font-size: 11px;
+            padding: 0px;
+            border: 0px;
+            text-decoration: none;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+            #navcontainer ul li a.Selected
+            {
+                color: #43579d;
+                font-size: 11px;
+                padding: 0px;
+                border: 0px;
+                text-decoration: none;
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            #navcontainer ul li a:hover
+            {
+                color: #43579d;
+            }
+
+#Search
+{
+    clear: left;
+    margin-left: 10px;
+}
+
+.accountinfo
+{
+    display: inline-block;
+    white-space: nowrap;
+    background-color: #ccc;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ccc));
+    background-image: -webkit-linear-gradient(top, #eee, #ccc);
+    background-image: -moz-linear-gradient(top, #eee, #ccc);
+    background-image: -ms-linear-gradient(top, #eee, #ccc);
+    background-image: -o-linear-gradient(top, #eee, #ccc);
+    background-image: linear-gradient(top, #eee, #ccc);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#cccccc');
+    border: 1px solid #777;
+    padding: 0 0em;
+    margin: -0.1em;
+    font:  1em/2em Arial, Helvetica;
+    text-decoration: none;
+    color: #333;
+    text-shadow: 0 1px 0 rgba(255,255,255,.8);
+    -moz-border-radius: .5em;
+    -webkit-border-radius: .5em;
+    border-radius: .5em;
+    -moz-box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+    box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+}
+
+.accountinfo1
+{
+    display: inline-block;
+    white-space: nowrap;
+    background-color: #ccc;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ccc));
+    background-image: -webkit-linear-gradient(top, #eee, #ccc);
+    background-image: -moz-linear-gradient(top, #eee, #ccc);
+    background-image: -ms-linear-gradient(top, #eee, #ccc);
+    background-image: -o-linear-gradient(top, #eee, #ccc);
+    background-image: linear-gradient(top, #eee, #ccc);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#cccccc');
+    border: 1px solid #777;
+    padding: 0 0em;
+    margin: -0.1em;
+    font:  1em/2em Arial, Helvetica;
+    text-decoration: none;
+    color: #333;
+    text-shadow: 0 1px 0 rgba(255,255,255,.8);
+    -moz-box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+    box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+}
+

@@ -1,0 +1,33 @@
+http://architects.dzone.com/articles/angularjs-get-first-impression
+
+On Thu, Jul 18, 2013 at 8:26 PM, Sanchita Gupta <sanchita.gupta@kaplan.com> wrote:
+
+    Hey Prashant,
+
+    Go over these when u get time. Tomorrow lets come up with full plan and how we can divide technologies etc.
+
+    http://www.codeproject.com/Articles/87757/MongoDB-and-C
+    http://tincanapi.wikispaces.com/Tin+Can+API+Specification
+    https://www.woopra.com/
+    http://blog.mongodb.org/post/49262866911/the-mean-stack-mongodb-expressjs-angularjs-and
+    https://chartbeat.com/
+
+    Technologies we need to cover  (at minimum)
+    - MongoDB
+    - HighCharts
+    - Node.js
+
+    Others (if we can)
+    Angular and Expressjs
+	
+	
+	Create a sample app using Mean Stack and High Charts.
+
+-          Angular, Bootstrap, HighCharts
+
+-          MongoDB, ExpressionJs and NodeJs
+
+Event Specification using Tin Can Api.
+
+Get help on UX.
+
